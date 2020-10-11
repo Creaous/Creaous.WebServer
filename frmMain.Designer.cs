@@ -39,6 +39,7 @@
             this.btnStartHttpServ = new System.Windows.Forms.Button();
             this.txtHttpPort = new System.Windows.Forms.NumericUpDown();
             this.lblHPort = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.gpHttp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtHttpPort)).BeginInit();
             this.SuspendLayout();
@@ -173,11 +174,22 @@
             this.lblHPort.TabIndex = 0;
             this.lblHPort.Text = "Listening Port :";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(372, 34);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(41, 23);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Run in Background";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(432, 422);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.gpHttp);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -205,5 +217,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
