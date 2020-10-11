@@ -1,9 +1,0 @@
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\bin\Debug\ECMU.Interface.dll
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\bin\Debug\ECMU.Interface.pdb
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\obj\Debug\Creaous.ExamplePlugin.csproj.CoreCompileInputs.cache
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\obj\Debug\Creaous.ExamplePlugin.csproj.CopyComplete
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\obj\Debug\Creaous.ExamplePlugin.csprojAssemblyReference.cache
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\bin\Debug\Creaous.ExamplePlugin.dll
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\bin\Debug\Creaous.ExamplePlugin.pdb
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\obj\Debug\Creaous.ExamplePlugin.dll
-H:\VS Projects\ClubsportOS\Creaous.ExamplePlugin\obj\Debug\Creaous.ExamplePlugin.pdb
