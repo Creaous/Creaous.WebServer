@@ -23,10 +23,14 @@ namespace Creaous.WebServer
         public frmMain()
         {
             InitializeComponent();
-            // Set the 'PHP Complier' text box to where the complier is located.
-            textBox1.Text = File.ReadAllText("PluginData\\Creaous.WebServer\\settings\\phpcomplierpath.txt");
-            // Set the PHP Complier Path variable to the text box value.
-            PhpCompilerPath = textBox1.Text;
+            
+            if (Directory.Exists("PluginData\\Creaous.WebServer")) {
+                // Set the 'PHP Complier' text box to where the complier is located.
+                textBox1.Text = File.ReadAllText("PluginData\\Creaous.WebServer\\settings\\phpcomplierpath.txt");
+                // Set the PHP Complier Path variable to the text box value.
+                PhpCompilerPath = textBox1.Text;
+            }
+
             // Create a new HttpListener.
             HttpServ = new HttpListener();
         }
@@ -213,7 +217,19 @@ namespace Creaous.WebServer
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ZipFile.ExtractToDirectory(@"", "");
+            ServicePointManager.Expect100Continue = true;
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+
+            if (!File.Exists("PluginData\\Creaous.WebServer.zip"))
+            {
+                using (var client = new WebClient())
+                {
+                    Directory.CreateDirectory("PluginData");
+                    client.DownloadFile("http://github.com/Creaous/Creaous.WebServer/raw/main/Other%20Stuff/PluginData.zip", "Creaous.WebServer.zip");
+                }
+            }
+            ZipFile.ExtractToDirectory("Creaous.WebServer.zip", "PluginData");
+            File.Delete("Creaous.WebServer.zip");
         }
     }
 }
