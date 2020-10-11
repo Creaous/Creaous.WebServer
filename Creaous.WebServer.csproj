@@ -67,7 +67,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "H:\VS Projects\EzCar2\Creaous.WebServer\bin\Debug\Creaous.WebServer.dll" "H:\VS Projects\EzCar2\EzCar\bin\Debug\Plugins\Creaous.WebServer.dll" /y</PostBuildEvent>
+    <PostBuildEvent>xcopy "H:\VS Projects\EzCar2\Creaous.WebServer\bin\Release\Creaous.WebServer.dll" "H:\VS Projects\EzCar2\EzCar\bin\Debug\Plugins\Creaous.WebServer.dll" /y</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>
