@@ -1,0 +1,15 @@
+E:\C Sharp Projects\School Information System\Result\bin\Debug\Result.dll
+E:\C Sharp Projects\School Information System\Result\bin\Debug\Result.pdb
+E:\C Sharp Projects\School Information System\Result\bin\Debug\PluginInterface.dll
+E:\C Sharp Projects\School Information System\Result\bin\Debug\PluginInterface.pdb
+E:\C Sharp Projects\School Information System\Result\obj\Debug\Result.dll
+E:\C Sharp Projects\School Information System\Result\obj\Debug\Result.pdb
+C:\Users\Mitchell\Downloads\School Information System\Result\bin\Debug\Result.dll
+C:\Users\Mitchell\Downloads\School Information System\Result\bin\Debug\Result.pdb
+C:\Users\Mitchell\Downloads\School Information System\Result\bin\Debug\PluginInterface.dll
+C:\Users\Mitchell\Downloads\School Information System\Result\bin\Debug\PluginInterface.pdb
+C:\Users\Mitchell\Downloads\School Information System\Result\obj\Debug\Result.csprojAssemblyReference.cache
+C:\Users\Mitchell\Downloads\School Information System\Result\obj\Debug\Result.csproj.CoreCompileInputs.cache
+C:\Users\Mitchell\Downloads\School Information System\Result\obj\Debug\Result.csproj.CopyComplete
+C:\Users\Mitchell\Downloads\School Information System\Result\obj\Debug\Result.dll
+C:\Users\Mitchell\Downloads\School Information System\Result\obj\Debug\Result.pdb

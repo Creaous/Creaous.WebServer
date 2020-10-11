@@ -1,0 +1,11 @@
+C:\Users\Mitchell\Downloads\School Information System\Utils\bin\Debug\Utils.dll
+C:\Users\Mitchell\Downloads\School Information System\Utils\bin\Debug\Utils.pdb
+C:\Users\Mitchell\Downloads\School Information System\Utils\bin\Debug\PluginInterface.dll
+C:\Users\Mitchell\Downloads\School Information System\Utils\bin\Debug\PluginInterface.pdb
+C:\Users\Mitchell\Downloads\School Information System\Utils\obj\Debug\Utils.csprojAssemblyReference.cache
+C:\Users\Mitchell\Downloads\School Information System\Utils\obj\Debug\Utils.Result_Dashboard.resources
+C:\Users\Mitchell\Downloads\School Information System\Utils\obj\Debug\Utils.csproj.GenerateResource.cache
+C:\Users\Mitchell\Downloads\School Information System\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Mitchell\Downloads\School Information System\Utils\obj\Debug\Utils.csproj.CopyComplete
+C:\Users\Mitchell\Downloads\School Information System\Utils\obj\Debug\Utils.dll
+C:\Users\Mitchell\Downloads\School Information System\Utils\obj\Debug\Utils.pdb
