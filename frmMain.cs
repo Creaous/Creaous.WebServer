@@ -212,7 +212,10 @@ namespace Creaous.WebServer
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-
+            if (Directory.Exists("PluginData\\Creaous.WebServer"))
+            {
+                button3.Enabled = false;
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -220,16 +223,23 @@ namespace Creaous.WebServer
             ServicePointManager.Expect100Continue = true;
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 
+            MessageBox.Show("After you click 'OK', the program will freeze and start to download and extract the Plugin Data. Please do not close the application while it is downloading or extracting.", "Plugin Handler");
             if (!File.Exists("PluginData\\Creaous.WebServer.zip"))
             {
                 using (var client = new WebClient())
                 {
                     Directory.CreateDirectory("PluginData");
-                    client.DownloadFile("http://github.com/Creaous/Creaous.WebServer/raw/main/Other%20Stuff/PluginData.zip", "Creaous.WebServer.zip");
+                    client.DownloadFile("https://raw.githubusercontent.com/Creaous/Creaous.WebServer/main/Other%20Stuff/PluginData.zip", "Creaous.WebServer.zip");
                 }
             }
             ZipFile.ExtractToDirectory("Creaous.WebServer.zip", "PluginData");
             File.Delete("Creaous.WebServer.zip");
+            MessageBox.Show("Finished extracting! Please close this form and open it again to apply the changes.", "Plugin Handler");
+        }
+
+        private void gpHttp_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
